@@ -1,0 +1,149 @@
+OPERADORES ARITMÉTICOS
+
+5 + 3 adicionar 
+
+5 - 3 subtrair
+
+5 * 3 produto ou multiplicação
+
+5 / 3 divisões real
+
+pow (5,3) função interna para exponenciação ou 5 ** 3
+
+5 // 3 divisões inteira
+
+5 % 3 restos da divisão
+
+pow (81,1/2) Raiz quadrada ou 81 ** 1/2
+
+ORDEM DE PRECEDÊNCIA
+
+
+
+1 - ()
+
+2 - **
+
+3 -  *  /  // % 
+
+4 -  +  -
+
+
+
+BIBLIOTECA MATH
+
+
+
+CEIL Arredonda para cima
+
+FLOOR Arredonda para baixo
+
+SIN seno
+
+COS cosseno
+
+TAN tangente
+
+SQRT raiz quadrada
+
+POW potência
+
+PI p.i
+
+HYPOT o quadrado da hipotenusa igual a soma do quadrado dos catetos
+
+RADIANS radiano
+
+TRUNC truncar o número após a vírgula
+
+
+
+BIBLIOTECA RANDOM
+
+
+
+CHOICE Escolhe um elemento aleatório de uma 
+
+RADINT Escolhe aleatoriamente um número inteiro.
+
+SAMPLE  Transforma uma string em uma lista e depois embaralha essa lista. A população que deve ser informada é a string e o k é o número de caracteres da string que se deseja escolher aleatoriamente. Se quiser embaralhar todos os caracteres da string use len()
+
+SHUFFLE Embaralha os elementos de uma lista.
+
+
+
+BIBLIOTECAS ADICIONAIS
+
+
+
+PYGAME  Biblioteca criada para criação de jogos, com músicas, gráficos etc..
+
+SOCKET  Bilbioteca criada Soquetes e a API de soquete são usados para enviar mensagens através de uma rede
+
+TIME Hora, Data
+
+PLAYSOUND Escutar música
+
+
+
+Manipulando Texto
+
+
+
+Em uma cadeia de texto é separado por pequenos micro espaços de memória, e eles são contados o seu comprimento do total de caractere do 0, até o final
+
+
+
+FATIAMENTO
+
+
+
+0:0:0: No primeiro 0 fica a seleção inicial, no segundo é até onde ele vai selecionar e no final ele vai retirar -1, o último sempre é excluído, e o terceiro é de quantas vezes ele vai pular cada caractere
+
+
+
+ANÁLISE
+
+
+
+frase.LEN() É o comprimento, irá exibir quantos caracteres há em uma caixa de texto selecionada
+
+frase.COUNT(‘0’,0,14) Irá exibir na tela quantas vezes ele achou o caractere ‘0’, do 0 até o 14, o último será excluído
+
+frase.FIND(‘Python’) Irá dizer em que momento começou tal palavra ou caractere mencionado se não existir, retorna o valor (-1) inexistente
+
+Python IN frase Irá verificar se existe a palavra mencionada na caixa de texto, se sim, retornará True, se não, retornará False
+
+
+
+TRANSFORMAÇÃO
+
+
+
+frase.REPLACE(‘Python’, ‘Android’) Ele vai procurar pela palavra mencionada, e vai substituir por outra
+
+frase.UPPER() Transformar a Caixa de texto em letras maiúscula
+
+frase.LOWER() Transformar a Caixa de texto e minúsculo
+
+frase.CAPITALIZE() Apenas a primeira letra do inicio da frase em maiúsculo
+
+frase.TITLE() Ele vai quebrar a caixa de texto por blocos, e vai usar o Capitalize para deixar cada letra após o espaço, inicio do bloco em maiúsculo
+
+frase.STRIP() Espaços da direita e da esquerda (começo e final), serão apagados, serão ignorados pelo python usando o método strip
+
+frase.RSTRIP() Espaços da direita (final), serão apagados, serão ignorados, apenas os espaços da esquerda (começo) será mantido pelo python usando o método rstrip
+
+frase.LSTRIP() Espaços da esquerda (começo), serão apagados, serão ignorados, apenas os espaços da direita (final) será mantido pelo python usando o método lstrip
+
+
+
+DIVISÃO
+
+frase.SPLIT() Vai criar blocos com a cadeia de caracteres para cada espaço, e vai numerar cada caractere de cada bloco de 0 até o final, assim criando um bloco que contém essa numeração de 0 até o final, para cada split
+
+
+
+JUNÇÃO
+
+‘-’.JOIN(frase) Vai pegar o que contém nessa lista ou bloco, e fazer a junção, desmontando os blocos e juntando as palavras
